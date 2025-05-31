@@ -1,7 +1,7 @@
 
-# Resume Checker using LLM Model
+# Resume Checker web app using LLM Model
 
-This project analyzes resumes using AI and gives personalized feedback based on a job description. Built with Angular (frontend), Node.js (backend), and local LLMs via [Ollama](https://ollama.com).
+This project analyzes resumes using prompt-engineered LLM-based semantic comparison and gives personalized feedback based on a job description. Built with HTML/CSS/JavaScript (frontend), Node.js (backend), and local LLMs via [Ollama](https://ollama.com).
 
 ---
 
