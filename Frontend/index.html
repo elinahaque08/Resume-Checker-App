@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume Checker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <img src="https://cdn-icons-png.flaticon.com/512/3063/3063826.png" alt="AI Icon" class="icon" />
+      <h1>Is your resume good enough?</h1>
+      <p class="tagline">A free and fast LLM resume checker doing crucial checks to ensure your resume is ready to perform and get you interview callbacks.</p>
+    </header>
+
+    <div class="card">
+        <div class="upperPart">
+            <p>Drop your resume here or choose a file.</p>
+        <p type="text" style="font-size: xx-small;">(PDF only)</p>
+        </div>
+      <input type="file" id="resumeInput" accept=".pdf" name="resume" /><br><br>
+      <textarea id="jobDescription" placeholder="Paste the job description here..."></textarea><br><br>
+      <button onclick="uploadResume()">Upload Your Resume</button>
+      <div id="resultBox" class="result-box"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
